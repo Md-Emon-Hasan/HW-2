@@ -1,0 +1,149 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    color: #222;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffb400;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: #ffb400;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(120deg, #4a148c, #2c3e50);
+    color: white;
+    border-radius: 0 0 50px 50px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ffb400;
+    color: #2c3e50;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff9800;
+    color: white;
+}
+
+/* Content */
+.content {
+    padding: 50px;
+    text-align: center;
+    background: white;
+    margin: 40px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Signup Form */
+.signup-form {
+    max-width: 450px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4a148c;
+}
+
+.signup-form input, .signup-form textarea, .signup-form button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.signup-form button {
+    background: #4a148c;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup-form button:hover {
+    background: #2c3e50;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: #398888;
+}
